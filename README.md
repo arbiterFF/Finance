@@ -19,17 +19,17 @@ This project is a Python implementation of Modern Portfolio Theory (MPT) to opti
 
 To install the dependencies, run:
 
-
+'''
 pip install numpy pandas yfinance datetime scipy
-
+'''
 
 ## Usage
 
 1. Define the stocks in your portfolio by modifying the `stocks` list:
 
-
+'''
 stocks = ['BHP.AX', 'BXB.AX', 'CSL.AX', 'MQG.AX', 'NAB.AX', 'RIO.AX', 'RMD.AX', 'SHL.AX', 'TCL.AX', 'WDS.AX', 'WTC.AX', 'TNE.AX', 'TLX.AX', 'APA.AX', 'TLS.AX']
-
+'''
 
 2. Set the time period for the analysis by modifying the `start_date` and `end_date` variables:
 
