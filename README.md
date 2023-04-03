@@ -2,6 +2,12 @@
 
 This project is a Python implementation of Modern Portfolio Theory (MPT) to optimize a portfolio of stocks using historical data. The goal is to maximize the Sharpe ratio, which represents the risk-adjusted return of the portfolio.
 
+## Methodologies
+
+Two separate methodologies are presented:
+- using Scipy optimizer
+- using a MonteCarlo simulation across 100,000 samples
+
 ## Features
 
 - Fetch stock price data using `yfinance` library
